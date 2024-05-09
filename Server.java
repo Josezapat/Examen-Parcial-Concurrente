@@ -11,7 +11,7 @@ public class Server {
     public static void main(String[] args) {
         try {
             serverSocket = new ServerSocket(PORT);
-            System.out.println("El servidor está en ejecución en el puerto " + PORT);
+            System.out.println("El servidor está en ejecución en el puert o " + PORT);
         } catch (IOException e) {
             throw new RuntimeException("Error al iniciar el servidor.", e);
         }
