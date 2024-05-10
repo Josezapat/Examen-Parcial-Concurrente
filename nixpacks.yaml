@@ -3,7 +3,5 @@ language: java
 build:
   - mvn package
 
-# Puedes agregar más comandos de construcción si es necesario
-
 artifacts:
-  - target/*.jar  # Especifica aquí la ruta de los archivos que deseas empaquetar
+  - '*.jar'
