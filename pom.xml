@@ -32,6 +32,20 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!-- Plugin para empaquetar en JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <!-- Aquí especificas la clase principal -->
+                    <archive>
+                        <manifest>
+                            <mainClass>Client</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
